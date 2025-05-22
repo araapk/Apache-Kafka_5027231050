@@ -3,7 +3,7 @@ from pyspark.sql.functions import from_json, col, expr, window
 from pyspark.sql.types import StructType, StringType, IntegerType
 
 spark = SparkSession.builder \
-    .appName("Gudang Monitoring") \
+    .appName("KafkaJoin") \
     .getOrCreate()
 
 # Schema

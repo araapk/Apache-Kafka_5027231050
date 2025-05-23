@@ -89,3 +89,9 @@ Lakukan join antar dua stream berdasarkan `gudang_id` dan `window` waktu (misaln
 c. Buat Peringatan Gabungan
 
 Jika ditemukan suhu > 80°C dan kelembaban > 70% pada gudang yang sama, tampilkan peringatan kritis.
+
+Untuk mengerjakan nomor 3 dan 4, jangan lupa masih menjalankan semua step nomor 1 dan 2. Pastikan menjalankan di `.venv` dengan command berikut.
+```
+(.venv) PS D:\Apache-Kafka_5027231050> spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.5 consumer/consumer_join.py
+```
+![Screenshot 2025-05-23 103332](https://github.com/user-attachments/assets/bfbccfd5-da90-46c5-a5ee-b43d753daa25)
